@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>About Me</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>A Page About Me!</header>
-        <p>
-            <script>
-                document.write((new Date().getHours() < 12) ? "Good morning!" : "Good afternoon!")
-            </script>
-        </p>
-        <h1>INTRODUCTION</h1>
-        <p>
-            My name is Josh Doezie. I am 21 years old, I am from Highland, Utah, and I am a cybersecurity major at BYU. I love to do all kinds of sports, and outdoors things.
-        </p>
-        <h2>Family</h2>
-        <p>
-            My parents are named Chad and Lucy and they are from Pasadena, CA and London, England.
-            I have 3 sisters, 1 older 2 younger, and their names are Ella, Isabel and Olivia. We also have a mini golden doodle dog named Remi.
-            Ella is a mother of 2 boys names Louie and Rocco and they live in Salt Lake.
-            Isabel is on a mission in Trujillo, Peru, and Olivia is a senior in high school. 
-        </p>
-        <h3>Hobbies</h3>
-        <p>
-            Sports have always been the biggest hobby of mine. I played baseball in high school and have played almost every major sport competetively.
-            My favorite to watch is football, and lately I have taken up golf more and got into it this last summer.
-            I also enjoy playing the piano and guitar, and got my first electric guitar a few months ago. 
-            I love to go camping, fishing, hiking and doing everything outside. 
-        </p>
-        <h3>Vacation</h4>
-        <p>
-            I love to travel and have been able to visit many places. 
-            Some of my trips include visiting Guatemala for an HEFY trip to build a health clinic, a small city below Tijuana, Mexico to build an orphange, and England to visit my Mom's hometown. 
-            Some places I want to visit when I'm older, is Greece, Brazil, Japan, China, and Iceland.
-        </p>
-        <footer>Go Cougs, U Down!</footer>
-    </body>
+  <head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>A Page About Me!</header>
+
+    <p>
+      <script>
+        document.write((new Date().getHours() < 12) ? "Good morning!" : "Good afternoon!");
+      </script>
+    </p>
+
+    <div>
+      <h1>INTRODUCTION</h1>
+      <p>
+        My name is <strong>Josh Doezie</strong>. I am <em>21 years old</em>, I am from Highland, Utah, and I am a<span class="highlight">cybersecurity major</span> at BYU. I love to do all kinds of sports and outdoor things.
+      </p>
+    </div>
+
+    <div>
+      <h2>Family</h2>
+      <p>
+        My parents are named <strong>Chad</strong> and <strong>Lucy</strong> and they are from Pasadena, CA and London, England. I have 3 sisters — 1 older and 2 younger — and their names are <em>Ella</em>, <em>Isabel</em>, and <em>Olivia</em>. We also have a mini golden doodle dog named <span class="dog">Remi</span>. Ella is a mother of 2 boys named Louie and Rocco and they live in Salt Lake. Isabel is on a mission in Trujillo, Peru, and Olivia is a senior in high school. 
+      </p>
+    </div>
+
+    <div>
+      <h3>Hobbies</h3>
+      <p>
+        Sports have always been the biggest hobby of mine. I played baseball in high school and have played almost every major sport competitively. My favorite to watch is <strong>football</strong>, and lately I have taken up <em>golf</em> more and got into it this last summer. I also enjoy playing the piano and guitar, and got my first electric guitar a few months ago. I love to go camping, fishing, hiking, and doing everything outside. 
+      </p>
+    </div>
+
+    <div>
+      <h3>Vacation</h3>
+      <p>
+        I love to travel and have been able to visit many places. Some of my trips include visiting <em>Guatemala</em> for an HEFY trip to build a health clinic, a small city below Tijuana, <em>Mexico</em> to build an orphanage, and <em>England</em> to visit my Mom's hometown. Some places I want to visit when I'm older are <strong>Greece</strong>, <strong>Brazil</strong>, <strong>Japan</strong>, <strong>China</strong>, and <strong>Iceland</strong>.
+      </p>
+    </div>
+
+    <footer>Go Cougs, U Down!</footer>
+  </body>
 </html>
