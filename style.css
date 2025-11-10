@@ -5,16 +5,18 @@ body {
   color: #222142;
   background: linear-gradient(to bottom right, #b3e5fc, #ffffff);
 }
-
-header, footer {
-text-align: center;
-  .fade-in {
+.fade-in {
   animation: fadeIn 2s ease-in-out;
-  }
+}
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
-  }
+}
+
+header, footer {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 h1, h2, h3 {
@@ -31,4 +33,16 @@ p {
   text-align: center;
   font-size: 16px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.highlight {
+  color: #e74c3c;
+  font-weight: bold;
+}
+.dog {
+  color: #9b59b6;
+  font-style: italic;
+  font-weight: bold;
+}
+div {
+  animation: fadeIn 1.5s ease-in;
 }
