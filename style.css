@@ -12,9 +12,9 @@ h1, h2, h3, h4 {
 
 p {
   background-color: white;
-  border: 10px solid #1a5276;
+  border: 7px solid #1a5276;
   border-radius: 8px;
   margin: 20px auto;
-  text_align: center
+  text_align: center;
   font-size: 16px;
 }
