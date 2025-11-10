@@ -46,3 +46,8 @@ p {
 div {
   animation: fadeIn 1.5s ease-in;
 }
+.gif-container {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  margin-top: 20px;
+}
